@@ -1,0 +1,16 @@
+POST http://localhost:8000/api/v1/phone
+content-type: application/json
+
+{
+    "phone": "+260971196736"
+}
+
+###
+POST http://localhost:8000/api/v1/otpverification
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InBob25lIjoiKzI2MDk3MTE5NjczNiJ9LCJpYXQiOjE2NDI5MjA1MDksImV4cCI6MTY0MjkyMDUzOX0.UY7xe-gNCT9496AVzrYXaoIQ9ULAU9-PjPQz4YujOiQ
+content-type: application/json
+
+{
+    "name": "sample",
+    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+}
