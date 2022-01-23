@@ -6,7 +6,7 @@ const databaseName = process.env.DATABASE_NAME
 const dbPassword = process.env.DB_PASSWORD
 const dialect = process.env.DIALECT
 
-console.log(`information#muprla::${databaseName}`)
+//console.log(`information#muprla::${databaseName}`)
 module.exports={
   "development": {
     "username": "postgres",
