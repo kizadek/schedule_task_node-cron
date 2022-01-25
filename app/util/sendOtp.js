@@ -16,7 +16,8 @@ exports. sendOTP = async (body,to) =>{
         });
         return true
     } catch (error) {
-        console.log(`ERROR:: ${error}`);
+        console.log(`ERROR:: ${error}`.italic);
+        console.log(error)
     }
 
     //if error return false

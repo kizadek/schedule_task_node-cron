@@ -1,3 +1,9 @@
+
+
+
+GET  http://localhost:8000/api/v1/deletOTPS
+###
+
 POST http://localhost:8000/api/v1/phone
 content-type: application/json
 
@@ -7,10 +13,9 @@ content-type: application/json
 
 ###
 POST http://localhost:8000/api/v1/otpverification
-Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InBob25lIjoiKzI2MDk3MTE5NjczNiJ9LCJpYXQiOjE2NDI5MjA1MDksImV4cCI6MTY0MjkyMDUzOX0.UY7xe-gNCT9496AVzrYXaoIQ9ULAU9-PjPQz4YujOiQ
+Authorization:  Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJkYXRhIjp7InBob25lIjoiKzI2MDk3MTE5NjczNiJ9LCJpYXQiOjE2NDMwMzM2NTEsImV4cCI6MTY0MzAzMzk1MX0.ac6DL2wyXRZG6o_7kiSVNvo5RDQgXWjnmv2pVmkWOaY
 content-type: application/json
 
 {
-    "name": "sample",
-    "time": "Wed, 21 Oct 2015 18:27:50 GMT"
+    "otp":"486526"
 }
